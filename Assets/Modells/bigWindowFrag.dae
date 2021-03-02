@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.90.1 commit date:2020-09-23, commit time:06:43, hash:3e85bb34d0d7</authoring_tool>
+    </contributor>
+    <created>2020-12-17T14:24:43</created>
+    <modified>2020-12-17T14:24:43</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_geometries>
+    <geometry id="WindowGlass_001_cell_010-mesh" name="WindowGlass.001_cell.010">
+      <mesh>
+        <source id="WindowGlass_001_cell_010-mesh-positions">
+          <float_array id="WindowGlass_001_cell_010-mesh-positions-array" count="15">0 0.3341455 0.2011982 0 0.3341456 -0.07288438 0 -0.2434039 0.2011981 0 -0.2223336 -0.04919642 0 -0.2025535 -0.2803154</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_010-mesh-positions-array" count="5" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WindowGlass_001_cell_010-mesh-normals">
+          <float_array id="WindowGlass_001_cell_010-mesh-normals-array" count="3">1 0 0</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_010-mesh-normals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WindowGlass_001_cell_010-mesh-map-0">
+          <float_array id="WindowGlass_001_cell_010-mesh-map-0-array" count="18">0.5546845 0.6183366 0.5487625 0.5077168 0.6172831 0.5077168 0.6172831 0.5077168 0.6172831 0.622525 0.5546845 0.6183366 0.5546845 0.6183366 0.4971517 0.6138555 0.5487625 0.5077168</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_010-mesh-map-0-array" count="9" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="WindowGlass_001_cell_010-mesh-vertices">
+          <input semantic="POSITION" source="#WindowGlass_001_cell_010-mesh-positions"/>
+        </vertices>
+        <triangles count="3">
+          <input semantic="VERTEX" source="#WindowGlass_001_cell_010-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#WindowGlass_001_cell_010-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#WindowGlass_001_cell_010-mesh-map-0" offset="2" set="0"/>
+          <p>3 0 0 1 0 1 0 0 2 0 0 3 2 0 4 3 0 5 3 0 6 4 0 7 1 0 8</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="WindowGlass_001_cell_009-mesh" name="WindowGlass.001_cell.009">
+      <mesh>
+        <source id="WindowGlass_001_cell_009-mesh-positions">
+          <float_array id="WindowGlass_001_cell_009-mesh-positions-array" count="21">0 -0.1757209 -0.1106972 0 0.1497701 -0.1793302 0 -0.2258238 0.0400027 0 -0.2086947 0.08023339 0 -0.2043361 0.08990204 0 0.3324029 0.297523 0 0.332403 -0.2176338</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_009-mesh-positions-array" count="7" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WindowGlass_001_cell_009-mesh-normals">
+          <float_array id="WindowGlass_001_cell_009-mesh-normals-array" count="3">1 0 0</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_009-mesh-normals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WindowGlass_001_cell_009-mesh-map-0">
+          <float_array id="WindowGlass_001_cell_009-mesh-map-0-array" count="30">0.4461913 0.6087242 0.429033 0.5440214 0.4963411 0.6144126 0.4194571 0.5077168 0.5482463 0.5077168 0.429033 0.5440214 0.5482463 0.5077168 0.4963411 0.6144126 0.429033 0.5440214 0.4963411 0.6144126 0.493924 0.6152789 0.4461913 0.6087242 0.493924 0.6152789 0.4838663 0.6186839 0.4461913 0.6087242</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_009-mesh-map-0-array" count="15" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="WindowGlass_001_cell_009-mesh-vertices">
+          <input semantic="POSITION" source="#WindowGlass_001_cell_009-mesh-positions"/>
+        </vertices>
+        <triangles count="5">
+          <input semantic="VERTEX" source="#WindowGlass_001_cell_009-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#WindowGlass_001_cell_009-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#WindowGlass_001_cell_009-mesh-map-0" offset="2" set="0"/>
+          <p>0 0 0 1 0 1 4 0 2 6 0 3 5 0 4 1 0 5 5 0 6 4 0 7 1 0 8 4 0 9 3 0 10 0 0 11 3 0 12 2 0 13 0 0 14</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="WindowGlass_001_cell_008-mesh" name="WindowGlass.001_cell.008">
+      <mesh>
+        <source id="WindowGlass_001_cell_008-mesh-positions">
+          <float_array id="WindowGlass_001_cell_008-mesh-positions-array" count="24">0 -0.4366402 -0.2403955 0 -0.4366403 0.1786462 0 0.2214664 -0.2403954 0 0.227432 -0.1189512 0 0.233673 0.01262491 0 0.2139648 0.07211786 0 0.1836602 0.1631787 0 -0.2069162 0.1731745</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_008-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WindowGlass_001_cell_008-mesh-normals">
+          <float_array id="WindowGlass_001_cell_008-mesh-normals-array" count="3">1 0 0</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_008-mesh-normals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WindowGlass_001_cell_008-mesh-map-0">
+          <float_array id="WindowGlass_001_cell_008-mesh-map-0-array" count="36">0.4130779 0.6102755 0.4608451 0.6129525 0.4861093 0.6966174 0.3827168 0.7422831 0.3827168 0.6114614 0.4130779 0.6102755 0.4130779 0.6102755 0.445972 0.6090349 0.4608451 0.6129525 0.4608451 0.6129525 0.4836103 0.6189767 0.4861093 0.6966174 0.4861093 0.6966174 0.4874773 0.7422831 0.3827168 0.7422831 0.3827168 0.7422831 0.4130779 0.6102755 0.4861093 0.6966174</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_008-mesh-map-0-array" count="18" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="WindowGlass_001_cell_008-mesh-vertices">
+          <input semantic="POSITION" source="#WindowGlass_001_cell_008-mesh-positions"/>
+        </vertices>
+        <triangles count="6">
+          <input semantic="VERTEX" source="#WindowGlass_001_cell_008-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#WindowGlass_001_cell_008-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#WindowGlass_001_cell_008-mesh-map-0" offset="2" set="0"/>
+          <p>3 0 0 5 0 1 7 0 2 0 0 3 2 0 4 3 0 5 3 0 6 4 0 7 5 0 8 5 0 9 6 0 10 7 0 11 7 0 12 1 0 13 0 0 14 0 0 15 3 0 16 7 0 17</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="WindowGlass_001_cell_005-mesh" name="WindowGlass.001_cell.005">
+      <mesh>
+        <source id="WindowGlass_001_cell_005-mesh-positions">
+          <float_array id="WindowGlass_001_cell_005-mesh-positions-array" count="18">0 0.3034219 -0.1132576 0 -0.2167484 -0.1132577 0 0.3034219 0.03153872 0 0.02745282 0.08995544 0 -0.2045239 0.1386938 0 -0.2130243 -0.03367263</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_005-mesh-positions-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WindowGlass_001_cell_005-mesh-normals">
+          <float_array id="WindowGlass_001_cell_005-mesh-normals-array" count="3">1 0 0</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_005-mesh-normals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WindowGlass_001_cell_005-mesh-map-0">
+          <float_array id="WindowGlass_001_cell_005-mesh-map-0-array" count="24">0.3827168 0.6111189 0.4335201 0.5625753 0.4026131 0.6103786 0.3827168 0.6111189 0.3827168 0.5077168 0.4335201 0.5625753 0.3827168 0.5077168 0.4189159 0.5077168 0.4335201 0.5625753 0.4335201 0.5625753 0.4457048 0.6086888 0.4026131 0.6103786</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_005-mesh-map-0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="WindowGlass_001_cell_005-mesh-vertices">
+          <input semantic="POSITION" source="#WindowGlass_001_cell_005-mesh-positions"/>
+        </vertices>
+        <triangles count="4">
+          <input semantic="VERTEX" source="#WindowGlass_001_cell_005-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#WindowGlass_001_cell_005-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#WindowGlass_001_cell_005-mesh-map-0" offset="2" set="0"/>
+          <p>1 0 0 3 0 1 5 0 2 1 0 3 0 0 4 3 0 5 0 0 6 2 0 7 3 0 8 3 0 9 4 0 10 5 0 11</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="WindowGlass_001_cell_004-mesh" name="WindowGlass.001_cell.004">
+      <mesh>
+        <source id="WindowGlass_001_cell_004-mesh-positions">
+          <float_array id="WindowGlass_001_cell_004-mesh-positions-array" count="18">0 -0.4144401 0.3426367 0 0.1861666 0.3426368 0 -0.41444 -0.1744311 0 0.205766 -0.1898934 0 0.2099707 -0.1805748 0 0.2269766 -0.140374</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_004-mesh-positions-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WindowGlass_001_cell_004-mesh-normals">
+          <float_array id="WindowGlass_001_cell_004-mesh-normals-array" count="3">1 0 0</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_004-mesh-normals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WindowGlass_001_cell_004-mesh-map-0">
+          <float_array id="WindowGlass_001_cell_004-mesh-map-0-array" count="24">0.4965305 0.6147791 0.6172831 0.6228916 0.4880161 0.7422831 0.6172831 0.7422831 0.4880161 0.7422831 0.6172831 0.6228916 0.4880161 0.7422831 0.4841505 0.6189954 0.4864802 0.6181597 0.4965305 0.6147791 0.4880161 0.7422831 0.4864802 0.6181597</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_004-mesh-map-0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="WindowGlass_001_cell_004-mesh-vertices">
+          <input semantic="POSITION" source="#WindowGlass_001_cell_004-mesh-positions"/>
+        </vertices>
+        <triangles count="4">
+          <input semantic="VERTEX" source="#WindowGlass_001_cell_004-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#WindowGlass_001_cell_004-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#WindowGlass_001_cell_004-mesh-map-0" offset="2" set="0"/>
+          <p>5 0 0 1 0 1 2 0 2 0 0 3 2 0 4 1 0 5 2 0 6 3 0 7 4 0 8 5 0 9 2 0 10 4 0 11</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="WindowGlass_001_cell_003-mesh" name="WindowGlass.001_cell.003">
+      <mesh>
+        <source id="WindowGlass_001_cell_003-mesh-positions">
+          <float_array id="WindowGlass_001_cell_003-mesh-positions-array" count="15">0 0.3370323 0.1866682 0 0.3370323 -0.09367305 0 -0.2015835 -0.3018831 0 -0.2293215 0.02221983 0 -0.2431595 0.1866681</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_003-mesh-positions-array" count="5" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WindowGlass_001_cell_003-mesh-normals">
+          <float_array id="WindowGlass_001_cell_003-mesh-normals-array" count="3">-1 0 0</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_003-mesh-normals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WindowGlass_001_cell_003-mesh-map-0">
+          <float_array id="WindowGlass_001_cell_003-mesh-map-0-array" count="18">0.5761711 0.1297005 0.6172831 0.1269497 0.6172831 0.2422831 0.6172831 0.2422831 0.5471978 0.2422831 0.5761711 0.1297005 0.5471978 0.2422831 0.4951453 0.1352143 0.5761711 0.1297005</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_003-mesh-map-0-array" count="9" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="WindowGlass_001_cell_003-mesh-vertices">
+          <input semantic="POSITION" source="#WindowGlass_001_cell_003-mesh-positions"/>
+        </vertices>
+        <triangles count="3">
+          <input semantic="VERTEX" source="#WindowGlass_001_cell_003-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#WindowGlass_001_cell_003-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#WindowGlass_001_cell_003-mesh-map-0" offset="2" set="0"/>
+          <p>3 0 0 4 0 1 0 0 2 0 0 3 1 0 4 3 0 5 1 0 6 2 0 7 3 0 8</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="WindowGlass_001_cell_002-mesh" name="WindowGlass.001_cell.002">
+      <mesh>
+        <source id="WindowGlass_001_cell_002-mesh-positions">
+          <float_array id="WindowGlass_001_cell_002-mesh-positions-array" count="21">0 -0.161458 -0.1083453 0 0.07054209 -0.1572648 0 -0.2107183 0.03980213 0 0.3462862 -0.2150966 0 0.3462861 0.2904615 0 -0.1924247 0.08197426 0 -0.1985128 0.06846874</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_002-mesh-positions-array" count="7" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WindowGlass_001_cell_002-mesh-normals">
+          <float_array id="WindowGlass_001_cell_002-mesh-normals-array" count="3">-1 0 0</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_002-mesh-normals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WindowGlass_001_cell_002-mesh-map-0">
+          <float_array id="WindowGlass_001_cell_002-mesh-map-0-array" count="30">0.4945653 0.1351954 0.546687 0.2422831 0.4347554 0.1874693 0.546687 0.2422831 0.4202975 0.2422831 0.4347554 0.1874693 0.4347554 0.1874693 0.4469853 0.1413512 0.4945653 0.1351954 0.4469853 0.1413512 0.4840222 0.131559 0.4911888 0.1339852 0.4945653 0.1351954 0.4469853 0.1413512 0.4911888 0.1339852</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_002-mesh-map-0-array" count="15" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="WindowGlass_001_cell_002-mesh-vertices">
+          <input semantic="POSITION" source="#WindowGlass_001_cell_002-mesh-positions"/>
+        </vertices>
+        <triangles count="5">
+          <input semantic="VERTEX" source="#WindowGlass_001_cell_002-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#WindowGlass_001_cell_002-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#WindowGlass_001_cell_002-mesh-map-0" offset="2" set="0"/>
+          <p>5 0 0 4 0 1 1 0 2 4 0 3 3 0 4 1 0 5 1 0 6 0 0 7 5 0 8 0 0 9 2 0 10 6 0 11 5 0 12 0 0 13 6 0 14</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="WindowGlass_001_cell_001-mesh" name="WindowGlass.001_cell.001">
+      <mesh>
+        <source id="WindowGlass_001_cell_001-mesh-positions">
+          <float_array id="WindowGlass_001_cell_001-mesh-positions-array" count="24">0 -0.4497286 -0.2379741 0 0.2209538 0.01825648 0 0.2122393 -0.1654663 0 0.1934347 0.1013278 0 0.2086775 -0.237974 0 0.1717589 0.1664606 0 -0.4497286 0.1817591 0 -0.1076073 0.1736103</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_001-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WindowGlass_001_cell_001-mesh-normals">
+          <float_array id="WindowGlass_001_cell_001-mesh-normals-array" count="3">-1 0 0</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_001-mesh-normals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WindowGlass_001_cell_001-mesh-map-0">
+          <float_array id="WindowGlass_001_cell_001-mesh-map-0-array" count="36">0.485613 0.07572543 0.4008438 0.1393061 0.3827168 0.007716834 0.3827168 0.1385981 0.3827168 0.007716834 0.4008438 0.1393061 0.3827168 0.007716834 0.4876502 0.007716834 0.485613 0.07572543 0.485613 0.07572543 0.4838255 0.1312592 0.4675424 0.1355681 0.4675424 0.1355681 0.4467746 0.1410384 0.485613 0.07572543 0.4467746 0.1410384 0.4008438 0.1393061 0.485613 0.07572543</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_001-mesh-map-0-array" count="18" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="WindowGlass_001_cell_001-mesh-vertices">
+          <input semantic="POSITION" source="#WindowGlass_001_cell_001-mesh-positions"/>
+        </vertices>
+        <triangles count="6">
+          <input semantic="VERTEX" source="#WindowGlass_001_cell_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#WindowGlass_001_cell_001-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#WindowGlass_001_cell_001-mesh-map-0" offset="2" set="0"/>
+          <p>7 0 0 2 0 1 0 0 2 4 0 3 0 0 4 2 0 5 0 0 6 6 0 7 7 0 8 7 0 9 5 0 10 3 0 11 3 0 12 1 0 13 7 0 14 1 0 15 2 0 16 7 0 17</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="WindowGlass_001_cell_007-mesh" name="WindowGlass.001_cell.007">
+      <mesh>
+        <source id="WindowGlass_001_cell_007-mesh-positions">
+          <float_array id="WindowGlass_001_cell_007-mesh-positions-array" count="18">0 0.2873085 -0.1203092 0 -0.2202618 0.1347517 0 -0.2263389 0.01152318 0 -0.2325081 -0.1203093 0 0.2873085 0.02782261 0 0.104492 0.06652098</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_007-mesh-positions-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WindowGlass_001_cell_007-mesh-normals">
+          <float_array id="WindowGlass_001_cell_007-mesh-normals-array" count="3">-1 0 0</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_007-mesh-normals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WindowGlass_001_cell_007-mesh-map-0">
+          <float_array id="WindowGlass_001_cell_007-mesh-map-0-array" count="24">0.4294244 0.2059419 0.4197498 0.2422831 0.3827168 0.2422831 0.3827168 0.2422831 0.3827168 0.1389514 0.4294244 0.2059419 0.3827168 0.1389514 0.415675 0.1401777 0.4294244 0.2059419 0.415675 0.1401777 0.4464821 0.1413857 0.4294244 0.2059419</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_007-mesh-map-0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="WindowGlass_001_cell_007-mesh-vertices">
+          <input semantic="POSITION" source="#WindowGlass_001_cell_007-mesh-positions"/>
+        </vertices>
+        <triangles count="4">
+          <input semantic="VERTEX" source="#WindowGlass_001_cell_007-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#WindowGlass_001_cell_007-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#WindowGlass_001_cell_007-mesh-map-0" offset="2" set="0"/>
+          <p>5 0 0 4 0 1 0 0 2 0 0 3 3 0 4 5 0 5 3 0 6 2 0 7 5 0 8 2 0 9 1 0 10 5 0 11</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="WindowGlass_001_cell_006-mesh" name="WindowGlass.001_cell.006">
+      <mesh>
+        <source id="WindowGlass_001_cell_006-mesh-positions">
+          <float_array id="WindowGlass_001_cell_006-mesh-positions-array" count="18">0 -0.414313 0.3427881 0 0.2129343 -0.1758871 0 0.2070525 -0.1889225 0 -0.414313 -0.1735192 0 0.2250496 -0.1472473 0 0.1835893 0.3427882</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_006-mesh-positions-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WindowGlass_001_cell_006-mesh-normals">
+          <float_array id="WindowGlass_001_cell_006-mesh-normals-array" count="3">-1 0 0</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_006-mesh-normals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WindowGlass_001_cell_006-mesh-map-0">
+          <float_array id="WindowGlass_001_cell_006-mesh-map-0-array" count="24">0.4876142 0.1324042 0.4843555 0.131235 0.4882063 0.007716834 0.6172831 0.007716834 0.6172831 0.1265708 0.4882063 0.007716834 0.6172831 0.1265708 0.4947742 0.1348125 0.4882063 0.007716834 0.4947742 0.1348125 0.4876142 0.1324042 0.4882063 0.007716834</float_array>
+          <technique_common>
+            <accessor source="#WindowGlass_001_cell_006-mesh-map-0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="WindowGlass_001_cell_006-mesh-vertices">
+          <input semantic="POSITION" source="#WindowGlass_001_cell_006-mesh-positions"/>
+        </vertices>
+        <triangles count="4">
+          <input semantic="VERTEX" source="#WindowGlass_001_cell_006-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#WindowGlass_001_cell_006-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#WindowGlass_001_cell_006-mesh-map-0" offset="2" set="0"/>
+          <p>1 0 0 2 0 1 3 0 2 0 0 3 5 0 4 3 0 5 5 0 6 4 0 7 3 0 8 4 0 9 1 0 10 3 0 11</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_003-mesh" name="Cube.003">
+      <mesh>
+        <source id="Cube_003-mesh-positions">
+          <float_array id="Cube_003-mesh-positions-array" count="48">-0.9907286 -46.4783 58.5717 -0.9907286 46.4783 58.5717 -0.9907286 -46.4783 -58.57171 -0.9907286 46.4783 -58.57171 0.9907283 -46.4783 58.5717 0.9907283 46.4783 58.5717 0.9907283 -46.4783 -58.57171 0.9907283 46.4783 -58.57171 -1.058691 -52.93454 -66.70784 -1.058691 -52.93454 66.70784 -1.058691 52.93454 66.70784 -1.058691 52.93454 -66.70784 1.058691 52.93454 -66.70784 1.058691 -52.93454 -66.70784 1.058691 -52.93454 66.70784 1.058691 52.93454 66.70784</float_array>
+          <technique_common>
+            <accessor source="#Cube_003-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_003-mesh-normals">
+          <float_array id="Cube_003-mesh-normals-array" count="60">0 0 -1 0 0 1 0 -1 0 0 1 0 -0.9999669 2.75004e-4 -0.008134663 -0.9999518 0.009815216 5.6429e-4 -0.9999517 0.009816884 -5.62951e-4 -0.9999517 -0.009815931 -5.63689e-4 -0.9999669 -2.73377e-4 -0.008135974 -0.9999518 -0.009815692 5.63887e-4 -0.9999667 -2.37274e-4 0.008164644 -0.9999666 2.35003e-4 0.008166432 0.9999667 2.37277e-4 0.008164644 0.9999518 -0.009815216 5.64295e-4 0.9999666 -2.35006e-4 0.008166432 0.9999669 2.73377e-4 -0.008135974 0.9999518 0.009815692 5.63892e-4 0.9999669 -2.75004e-4 -0.008134663 0.9999517 -0.009816884 -5.62956e-4 0.9999517 0.009815931 -5.63694e-4</float_array>
+          <technique_common>
+            <accessor source="#Cube_003-mesh-normals-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_003-mesh-map-0">
+          <float_array id="Cube_003-mesh-map-0-array" count="192">0.625 0.25 0.375 0.5 0.375 0.25 0.625 0.75 0.375 1 0.375 0.75 0.375 0.5 0.125 0.75 0.125 0.5 0.875 0.5 0.625 0.75 0.625 0.5 0.3827168 0.007716834 0.375 0.25 0.375 0 0.3827168 0.007716834 0.625 0 0.6172831 0.007716834 0.6172831 0.007716834 0.625 0.25 0.6172831 0.2422831 0.6172831 0.2422831 0.375 0.25 0.3827168 0.2422831 0.3827168 0.5077168 0.625 0.5 0.6172831 0.5077168 0.3827168 0.7422831 0.375 0.5 0.3827168 0.5077168 0.6172831 0.7422831 0.625 0.5 0.625 0.75 0.6172831 0.7422831 0.375 0.75 0.3827168 0.7422831 0.3827168 0.007716834 0.3827168 0.5077168 0.3827168 0.2422831 0.6172831 0.007716834 0.3827168 0.7422831 0.3827168 0.007716834 0.6172831 0.2422831 0.6172831 0.7422831 0.6172831 0.007716834 0.3827168 0.5077168 0.6172831 0.2422831 0.3827168 0.2422831 0.625 0.25 0.625 0.5 0.375 0.5 0.625 0.75 0.625 1 0.375 1 0.375 0.5 0.375 0.75 0.125 0.75 0.875 0.5 0.875 0.75 0.625 0.75 0.3827168 0.007716834 0.3827168 0.2422831 0.375 0.25 0.3827168 0.007716834 0.375 0 0.625 0 0.6172831 0.007716834 0.625 0 0.625 0.25 0.6172831 0.2422831 0.625 0.25 0.375 0.25 0.3827168 0.5077168 0.375 0.5 0.625 0.5 0.3827168 0.7422831 0.375 0.75 0.375 0.5 0.6172831 0.7422831 0.6172831 0.5077168 0.625 0.5 0.6172831 0.7422831 0.625 0.75 0.375 0.75 0.3827168 0.007716834 0.3827168 0.7422831 0.3827168 0.5077168 0.6172831 0.007716834 0.6172831 0.7422831 0.3827168 0.7422831 0.6172831 0.2422831 0.6172831 0.5077168 0.6172831 0.7422831 0.3827168 0.5077168 0.6172831 0.5077168 0.6172831 0.2422831</float_array>
+          <technique_common>
+            <accessor source="#Cube_003-mesh-map-0-array" count="96" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_003-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_003-mesh-positions"/>
+        </vertices>
+        <triangles count="32">
+          <input semantic="VERTEX" source="#Cube_003-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_003-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cube_003-mesh-map-0" offset="2" set="0"/>
+          <p>11 0 0 13 0 1 8 0 2 15 1 3 9 1 4 14 1 5 13 2 6 9 2 7 8 2 8 11 3 9 15 3 10 12 3 11 0 4 12 8 5 13 9 6 14 0 4 15 10 7 16 1 8 17 1 8 18 11 9 19 3 10 20 3 10 21 8 5 22 2 11 23 6 12 24 12 13 25 7 14 26 4 15 27 13 16 28 6 12 29 5 17 30 12 13 31 15 18 32 5 17 33 14 19 34 4 15 35 0 3 36 6 3 37 2 3 38 1 0 39 4 0 40 0 0 41 3 2 42 5 2 43 1 2 44 6 1 45 3 1 46 2 1 47 11 0 48 12 0 49 13 0 50 15 1 51 10 1 52 9 1 53 13 2 54 14 2 55 9 2 56 11 3 57 10 3 58 15 3 59 0 4 60 2 11 61 8 5 62 0 4 63 9 6 64 10 7 65 1 8 66 10 7 67 11 9 68 3 10 69 11 9 70 8 5 71 6 12 72 13 16 73 12 13 74 4 15 75 14 19 76 13 16 77 5 17 78 7 14 79 12 13 80 5 17 81 15 18 82 14 19 83 0 3 84 4 3 85 6 3 86 1 0 87 5 0 88 4 0 89 3 2 90 7 2 91 5 2 92 6 1 93 7 1 94 3 1 95</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="WindowGlass_001_cell_009" name="WindowGlass.001_cell.009" type="NODE">
+        <matrix sid="transform">1 0 0 0.009999998 0 1 0 0.2558544 0 0 1 0.2679344 0 0 0 1</matrix>
+        <instance_geometry url="#WindowGlass_001_cell_010-mesh" name="WindowGlass.001_cell.009"/>
+      </node>
+      <node id="WindowGlass_001_cell_008" name="WindowGlass.001_cell.008" type="NODE">
+        <matrix sid="transform">1 0 0 0.00999999 0 1 0 0.257597 0 0 1 -0.1045374 0 0 0 1</matrix>
+        <instance_geometry url="#WindowGlass_001_cell_009-mesh" name="WindowGlass.001_cell.008"/>
+      </node>
+      <node id="WindowGlass_001_cell_007" name="WindowGlass.001_cell.007" type="NODE">
+        <matrix sid="transform">1 0 0 0.01 0 1 0 -0.1533597 0 0 1 -0.2287371 0 0 0 1</matrix>
+        <instance_geometry url="#WindowGlass_001_cell_008-mesh" name="WindowGlass.001_cell.007"/>
+      </node>
+      <node id="WindowGlass_001_cell_006" name="WindowGlass.001_cell.006" type="NODE">
+        <matrix sid="transform">1 0 0 0.009999998 0 1 0 0.2865781 0 0 1 -0.3558748 0 0 0 1</matrix>
+        <instance_geometry url="#WindowGlass_001_cell_005-mesh" name="WindowGlass.001_cell.006"/>
+      </node>
+      <node id="WindowGlass_001_cell_002" name="WindowGlass.001_cell.002" type="NODE">
+        <matrix sid="transform">1 0 0 0.01 0 1 0 -0.1755599 0 0 1 0.1264957 0 0 0 1</matrix>
+        <instance_geometry url="#WindowGlass_001_cell_004-mesh" name="WindowGlass.001_cell.002"/>
+      </node>
+      <node id="WindowGlass_001_cell_005" name="WindowGlass.001_cell.005" type="NODE">
+        <matrix sid="transform">1 0 0 -0.009999998 0 1 0 0.2529676 0 0 1 0.2824644 0 0 0 1</matrix>
+        <instance_geometry url="#WindowGlass_001_cell_003-mesh" name="WindowGlass.001_cell.005"/>
+      </node>
+      <node id="WindowGlass_001_cell_004" name="WindowGlass.001_cell.004" type="NODE">
+        <matrix sid="transform">1 0 0 -0.01000001 0 1 0 0.2437138 0 0 1 -0.1037133 0 0 0 1</matrix>
+        <instance_geometry url="#WindowGlass_001_cell_002-mesh" name="WindowGlass.001_cell.004"/>
+      </node>
+      <node id="WindowGlass_001_cell_003" name="WindowGlass.001_cell.003" type="NODE">
+        <matrix sid="transform">1 0 0 -0.009999998 0 1 0 -0.1402714 0 0 1 -0.2311585 0 0 0 1</matrix>
+        <instance_geometry url="#WindowGlass_001_cell_001-mesh" name="WindowGlass.001_cell.003"/>
+      </node>
+      <node id="WindowGlass_001_cell_001" name="WindowGlass.001_cell.001" type="NODE">
+        <matrix sid="transform">1 0 0 -0.01 0 1 0 0.3026915 0 0 1 -0.3488232 0 0 0 1</matrix>
+        <instance_geometry url="#WindowGlass_001_cell_007-mesh" name="WindowGlass.001_cell.001"/>
+      </node>
+      <node id="WindowGlass_001_cell" name="WindowGlass.001_cell" type="NODE">
+        <matrix sid="transform">1 0 0 -0.009999998 0 1 0 -0.175687 0 0 1 0.1263443 0 0 0 1</matrix>
+        <instance_geometry url="#WindowGlass_001_cell_006-mesh" name="WindowGlass.001_cell"/>
+      </node>
+      <node id="WindowFrame_001" name="WindowFrame.001" type="NODE">
+        <matrix sid="transform">0.01 0 0 0 0 -1.62921e-9 -0.01 0 0 0.01 -1.62921e-9 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_003-mesh" name="WindowFrame.001"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
